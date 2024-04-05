@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <title>Form exercise</title>
+    <body>
+        <form action="action.php" method="post">
+            <label for="fname">First Name:*</label><br>
+            <input type="text" id="f_name" name="fname" placeholder="First Name" minlength="3" maxlength="20" accesskey="name"><br>
+
+            <br>
+
+            <label for="lname">Last Name:*</label><br>
+            <input type="text" id="l_name" name="lname" placeholder="Last Name" minlength="3" maxlength="20"  required><br>
+            <br>
+
+            <label for="email">Email:*</label><br>
+            <input type="email" id="email" name="email" placeholder="Email address" minlength="1" maxlength="10"  required><br><br>
+
+            <label for="phone">Phone:*</label><br>
+            <input type="tel" id="tel" name="tel" placeholder="Phonenumber" minlength="10" maxlength="10"  required><br><br>
+
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label><br><br>
+
+            <textarea placeholder="enter your  comments here" minlength="5" maxlength="20" rows="4" cols="50"></textarea>
+
+            <div>
+                <input type="reset">
+            </div>
+            <br><br>
+            <div>
+                <input type="submit">
+            </div>
+           
+            
+            
+        </form>
+
+    </body>
+</html>
